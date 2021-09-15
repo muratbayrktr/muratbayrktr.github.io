@@ -6,8 +6,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <base href="./">
     <title>Murat B.</title>
-    <meta property="og:title" content="Untitled" />
-    <meta name="twitter:title" content="Untitled" />
+    <meta property="og:title" content="Murat B." />
+    <meta name="twitter:title" content="Murat B." />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 
     <link rel="stylesheet" href="/animate.css/animate.min.css">
@@ -105,8 +105,9 @@
 </nav><!-- Panel Top #03 -->
 <nav class="panel top">
   <div class="sections desktop">
-    <div class="left"><a href="#" title="Slides Framework"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
-    <div class="center">
+    <div class="left"><a href="#" title="Logo"><img style="width: 24px; height: 24px; -webkit-filter: invert(1);" src="/assets/svg/terminal-logo-transparent.png" alt="Logo"/></a></div>
+    
+      <div class="center">
       <ul class="menu">
         <li><a href="#">Who am I?</a></li>
         <li><a href="#">My Music</a></li>
@@ -114,10 +115,12 @@
         <li><a href="#">Try your chance!</a></li>
       </ul>
     </div>
-    <div class="right"><a class="button blue rounded small" href="#">Profile</a></div>
+    <!-- Hide Profile button for now.
+      <div class="right"><a class="button blue rounded small" href="#">Profile</a></div>-->
+    <div class="right"><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span></div>
   </div>
   <div class="sections compact hidden">
-    <div class="left"><a href="#" title="Slides Framework"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
+    <div class="left"><a href="#" title="Logo"><img style="width: 82px; height: 82px" src="/assets/svg/terminal-logo.svg" alt="Logo"/></a></div>
     <div class="right"><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span></div>
   </div>
 </nav>
@@ -126,21 +129,19 @@
 <nav class="sidebar" data-sidebar-id="1">
   <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
   <div class="content">
-    <a href="#" class="logo"><svg width="100" height="30"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>
+    <a href="#" class="logo"><img style="width: 24px; height: 24px; -webkit-filter: invert(1);" src="/assets/svg/terminal-logo-transparent.png" alt="Logo"/></a>
     <ul class="mainMenu margin-top-3">
-      <li><a href="#">All Goods</a></li>
-      <li><a href="#">UI Kits</a></li>
-      <li><a href="#">Icons</a></li>
-      <li><a href="#">Mockups</a></li>
-      <li><a href="#">Toolkit</a></li>
+      <li><a href="#">Who am I?</a></li>
+      <li><a href="#">My Music</a></li>
+      <li><a href="#">My Strengths and Weaknesses</a></li>
+      <li><a href="#">Try your chance!</a></li>
     </ul>
     <ul class="subMenu small opacity-8">
-      <li><a href="#">Submit Product</a></li>
       <li><a href="#">FAQ</a></li>
       <li><a href="#">License</a></li>
       <li><a href="#">Terms & Conditions</a></li>
       <li><a href="#">Privacy Policy</a></li>
-      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Contact Me</a></li>
     </ul>
     <ul class="social opacity-8">
       <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
@@ -154,45 +155,24 @@
   <div class="content">
     <div class="container">
       <div class="wrap">
-      
-        <div class="fix-8-12">
-          <h1 class="ae-1 smallest margin-bottom-2">Hi there! It's Murat. I am a <span id="js-rotating" style="color: cornsilk;">developer, student, freelancer, musician</span>.</h1>
-          <p class="ae-2 large margin-bottom-2"><span class="opacity-8">I am passionately curious and eagerly enthusiastic about coding. I -in addition- love playing piano and making music. If you want to work together, study on a subject or even make music feel free to contact me!</span></p>
-          <a href="https://github.com/muratbayrktr" target="_blank" class="button rounded black margin-top-1 ae-5 fromCenter">GitHub</a>
-          <a href="https://www.linkedin.com/in/murat-bayraktar-a361b2189/" target="_blank" class="button rounded blue margin-top-1 ae-5 fromCenter">LinkedIn</a>
-          <a href="https://bayblognews.wordpress.com/" target="_blank" class="button rounded yellow margin-top-1 ae-5 fromCenter">Blog</a>
-          <a href="https://www.fiverr.com/users/mbayfl/" target="_blank" class="button rounded green margin-top-1 ae-5 fromCenter">Fiverr</a>
-          <a href="https://www.instagram.com/muratbayrktr/" target="_blank" class="button rounded red margin-top-1 ae-5 fromCenter">Instagram</a>
-          
-          <!-- Put this code anywhere in the body of your page where you want the badge to show up. 
-          <div itemscope itemtype='http://schema.org/Person' class='fiverr-seller-widget margin-top-1 ae-7 fromCenter' style='display: inline-block;'>
-            <a itemprop='url' href=https://www.fiverr.com/mbayfl rel="nofollow" target="_blank" style='display: inline-block;'>
-              <div class='fiverr-seller-content' id='fiverr-seller-widget-content-791fbfa8-0aec-4935-b6f8-f8fffd5480a6' itemprop='contentURL' style='display: none;'></div>
-
-              <div id='fiverr-widget-seller-data' style='display: none;'>
-                  <div itemprop='name' >mbayfl</div>
-                  <div itemscope itemtype='http://schema.org/Organization'><span itemprop='name'>Fiverr</span></div>
-                  <div itemprop='jobtitle'>Seller</div>
-                  <div itemprop='description'>I am Murat, Computer Engineering student in Middle East Technical University and Freelancer who is experienced and advanced in the area of Python scripting, Website, Database(SQL) and Mobile UI programming. 
-
-          I am 19 years old and new to the UpWork platform. But I am so passionate, ambitious, diligent, driven and  ready to do whatever it takes.
-
-          My work ethic is shaped in such a way that my clients deserve the best work. Thus, I put %100 effort to create something which my customers will appreciate even if it requires extra hours . I am fully devoded to completing the job in a perfect shape.</div>
-              </div>
-          </a>
-          </div> -->
-          
-          <a href="mailto:bayraktar.murat@metu.edu.tr" target="_blank" class="button rounded white margin-top-1 ae-6 fromCenter">E-mail</a>
-          
-
-<script id='fiverr-seller-widget-script-791fbfa8-0aec-4935-b6f8-f8fffd5480a6' src='https://widgets.fiverr.com/api/v1/seller/mbayfl?widget_id=791fbfa8-0aec-4935-b6f8-f8fffd5480a6' data-config='{"category_name":"Programming \u0026 Tech"}' async='true' defer='true'></script>
-
+        <div class="fix-10-12" style="background-image: url(/assets/img/background/background-altered-1.png); background-size: cover; border-radius: 25px;">
+          <div class="fix-8-12" style="opacity: 1;">
+            <h1 class="ae-1 smallest margin-bottom-2" style="text-align:start; margin-left: -4rem;"><br><br><span style="color: indianred;"><span id=js-rotating-root>></span>root@muratbayrktr:~$</span> <span style="color: darkgrey;"> Login succesful. </span></h1>
+            <h1 class="ae-1 smallest margin-bottom-2"><br><br>It's Murat. I am a <span id="js-rotating" style="color:aquamarine;">developer, student, freelancer, musician</span>.</h1>
+            <p class="ae-2 large margin-bottom-2"><span class="opacity-8">I am passionately curious and enthusiastic about coding. I love playing piano and making my own music. If you want to work together, study on a subject or even make music feel free to contact me!</span></p>
+            <a href="https://github.com/muratbayrktr" target="_blank" class="button rounded black margin-top-1 ae-5 fromCenter">GitHub</a>
+            <a href="https://www.linkedin.com/in/murat-bayraktar-a361b2189/" target="_blank" class="button rounded blue margin-top-1 ae-5 fromCenter">LinkedIn</a>
+            <a href="https://bayblognews.wordpress.com/" target="_blank" class="button rounded yellow margin-top-1 ae-5 fromCenter">Blog</a>
+            <a href="https://www.fiverr.com/users/mbayfl/" target="_blank" class="button rounded green margin-top-1 ae-5 fromCenter">Fiverr</a>
+            <a href="https://www.instagram.com/muratbayrktr/" target="_blank" class="button rounded red margin-top-1 ae-5 fromCenter">Instagram</a>
+            <a href="mailto:bayraktar.murat@metu.edu.tr" target="_blank" class="button rounded white margin-top-1 ae-6 fromCenter">E-mail</a>
+            <h1><br><br></h1>
+          </div>
         </div>
-      
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(assets/img/background/background.jpg)"></div>
+  <div class="background" style="background-image:url(assets/img/background/background-old.jpg)"></div>
 </section>
 <!-- Panel Bottom #01 -->
 <nav class="panel bottom forceMobileView">
@@ -209,10 +189,10 @@
 </nav>
 
 <!-- Share Window -->
-<div class="dropdown share bottom right" data-dropdown-id="2" data-text="Take a look at this" data-url="https://designmodo.com" data-pinterest-image="https://designmodo.com/wp-content/uploads/2015/10/Presentation.jpg">
+<div class="dropdown share bottom right" data-dropdown-id="2" data-text="Take a look at this" data-url="https://muratbayrktr.github.io" data-pinterest-image="https://muratbayrktr.github.io">
   <div class="center padding-2">
     <div class="title">Share</div>
-    <a href="#">Contact us</a>
+    <a href="#">Contact me</a>
   </div>
   <ul>
     <li class="social-facebook"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fb-like"></use></svg></li>
@@ -234,15 +214,25 @@
     <script>window.jQuery || document.write('<script src="/jquery/jquery.min.js"><\/script>')</script>
     <script src="//cdn.jsdelivr.net/jquery/3.6.0/jquery.min.js"></script>
     <script>
-      $("#js-rotating").Morphext({
+      $("#js-rotating-root").Morphext({
           animation: "fadeIn",
-          speed: 2000,
+          speed: 1000,
           complete: function () {
               console.log("This is called after a phrase is animated in! Current phrase index: " + this.index);
           }
       
       });
   </script>
+      <script>
+        $("#js-rotating").Morphext({
+            animation: "fadeIn",
+            speed: 2000,
+            complete: function () {
+                console.log("This is called after a phrase is animated in! Current phrase index: " + this.index);
+            }
+        
+        });
+    </script>
 
 </body>
 </html>
