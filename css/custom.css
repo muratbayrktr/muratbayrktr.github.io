@@ -1,4 +1,16 @@
-.ubt {
-    font-family: 'Ubuntu Mono', monospace;
+.anim-type{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinktextcursor 500ms steps(44) infinite normal ;
 }
-
+@keyframes typewriter {
+    from{size: 0;}
+    to{ width: max-content;}
+}
+@keyframes blinktextcursor {
+    from{
+        border-right-color:dimgrey;
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
